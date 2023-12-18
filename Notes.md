@@ -225,7 +225,13 @@
           [          0,           0]])
    ```
 
-   
+8. 
+
+## Git补习
+
+1. 在`git pull`和`git push`中遇到错误：`fatal: refusing to merge unrelated histories`
+   这是因为两个分支没有取得关系。
+   解决方法：`git pull origin master --allow-unrelated-histories`
 
 ## K-means
 

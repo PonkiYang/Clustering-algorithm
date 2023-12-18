@@ -11,3 +11,19 @@
 
 18:58
 两份代码大概都弄明白了，上传一下，去实验室了。
+
+20:21
+因为唐宇迪老师讲DBSCAN的时候写的代码是直接调用的DBSCAN库，并不像k-means一样直接用python写，所以我另外又找了一些DBSCAN的资料，发现基本上全都是调库来的。于是我直接找到库里面看了一眼类的原型，发现里面好多看不懂的代码，也调用了好多没见过的东西，好在内容并不是特别多，去除注释后代码一共100行多一些，之后再研究吧。
+DBSCAN.py参考自：[DBSCAN聚类的python实现_python dbscan-CSDN博客](https://blog.csdn.net/qq_18055167/article/details/128493668)
+DBSCAN_1.py参考自：[【机器学习】DBSCAN聚类算法（含Python实现）_dbscan python-CSDN博客](https://blog.csdn.net/wzk4869/article/details/129775584)
+DBSCAN_2.py参考自：[鸢尾花三种聚类算法（K-means,AGNES,DBScan）的python实现-CSDN博客](https://blog.csdn.net/weixin_42134141/article/details/80413598)
+之后闲下来再把这几篇文过一遍。
+
+20:35
+老师说今天我们班里挺多人咳嗽的，就不抽人讲了，好耶！（因为突然发现还有个东西没看懂，就那个select_MinPts()函数，根据数据集和选定的k值返回核心对象的最小样本数，k值我也没弄明白是啥）现在就先把实验报告写了吧，尽量在9点前写完，然后直接偷偷溜走回宿舍了。
+
+另外突然发现单片机数码管的实验报告截止今天12点，回宿舍赶紧抄下室友的交上去。
+另外记得之后把几篇参考材料copy下来。
+
+21:30
+焯，弄了将近1个小时还没弄完，回宿舍弄吧。
