@@ -3,13 +3,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from k_means import KMeans
 
+# 读取鸢尾花数据集
 data = pd.read_csv('data/iris.csv')
 iris_types = ['SETOSA','VERSICOLOR','VIRGINICA']
 
 x_axis = 'petal_length'
 y_axis = 'petal_width'
 
-# 画出已知标签时的分类情况与未知标签未分类时的情况
 plt.figure(figsize=(12,5))
 plt.subplot(1,2,1)
 for iris_type in iris_types:
@@ -31,8 +31,7 @@ max_iteritions = 50
 
 k_means = KMeans(x_train,num_clusters)
 centroids,closest_centroids_ids = k_means.train(max_iteritions)
-
-# 对比结果，已知标签时的分类情况 与 经过训练后的分类情况
+# 对比结果
 plt.figure(figsize=(12,5))
 plt.subplot(1,2,1)
 for iris_type in iris_types:

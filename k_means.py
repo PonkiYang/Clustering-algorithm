@@ -27,7 +27,7 @@ class KMeans:
         centroids = data[random_ids[:num_clustres], :]
         return centroids
 
-    #
+    # 为每个点找到最近的质心
     @staticmethod
     def centroids_find_closest(data, centroids):
         num_examples = data.shape[0]
@@ -41,7 +41,7 @@ class KMeans:
             closest_centroids_ids[example_index] = np.argmin(distance)
         return closest_centroids_ids
 
-    #
+    # 计算，更新质心
     @staticmethod
     def centroids_compute(data, closest_centroids_ids, num_clustres):
         num_features = data.shape[1]
