@@ -31,3 +31,14 @@ DBSCAN_2.py参考自：[鸢尾花三种聚类算法（K-means,AGNES,DBScan）的
 22:30
 一个更深入的k-means算法解析，抽空看：[聚类（K-means、K-均值）算法的基础、原理、Python实现和应用 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/158776162)
 弄完实验报告了，算是勉勉强强混过去了，但详细的内容还得放假后重新认真弄一遍，估计要花上一整天的时间。
+
+整理了一下大概任务：
+
+1. 看完[我居然三小时学懂了【三大聚类算法kmeans/DBSCAN/层次】，不愧是清华计算机博士亲授课程！—人工智能/机器学习/聚类分析_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1ST411w7De/)
+2. 看完以下几篇文章，并copy文章内容到项目文件夹中：
+   [DBSCAN聚类的python实现_python dbscan-CSDN博客](https://blog.csdn.net/qq_18055167/article/details/128493668)
+   [【机器学习】DBSCAN聚类算法（含Python实现）_dbscan python-CSDN博客](https://blog.csdn.net/wzk4869/article/details/129775584)
+   [鸢尾花三种聚类算法（K-means,AGNES,DBScan）的python实现-CSDN博客](https://blog.csdn.net/weixin_42134141/article/details/80413598)
+   [聚类（K-means、K-均值）算法的基础、原理、Python实现和应用 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/158776162)
+3. 记熟两种算法的代码，要求会默写
+4. 实现GUI图形界面，类似：[Visualizing K-Means Clustering (naftaliharris.com)](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
