@@ -10,6 +10,7 @@ iris_types = ['SETOSA','VERSICOLOR','VIRGINICA']
 x_axis = 'petal_length'
 y_axis = 'petal_width'
 
+# 绘制已知标签分类数据集与未分类数据集
 plt.figure(figsize=(12,5))
 plt.subplot(1,2,1)
 for iris_type in iris_types:
@@ -31,7 +32,8 @@ max_iteritions = 50
 
 k_means = KMeans(x_train,num_clusters)
 centroids,closest_centroids_ids = k_means.train(max_iteritions)
-# 对比结果
+
+# 对比结果，绘制已知标签分类数据集 与 使用算法进行分类后的数据
 plt.figure(figsize=(12,5))
 plt.subplot(1,2,1)
 for iris_type in iris_types:
