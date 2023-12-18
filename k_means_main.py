@@ -51,7 +51,3 @@ for centroid_id, centroid in enumerate(centroids):
 plt.legend()
 plt.title('label kmeans')
 plt.show()
-
-
-
-
